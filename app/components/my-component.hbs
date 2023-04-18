@@ -1,0 +1,5 @@
+<div contenteditable="true" {{on "input" @updateAnimals}}>
+    {{#each this.animals as |animal|}}
+        <span>{{animal}}</span>
+    {{/each}}
+</div>
